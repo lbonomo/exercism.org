@@ -36,5 +36,9 @@ function reverseString(string $text): string
     // https://www.php.net/manual/en/function.str-split.php
     // https://www.php.net/manual/en/function.array-reverse.php
     // https://www.php.net/manual/en/function.implode.php
-    return implode(array_reverse(str_split($text)));
+    // return implode(array_reverse(str_split($text)));
+
+    // Best solution.
+    // https://www.php.net/manual/es/function.strrev.php
+    return strrev($text);
 }
