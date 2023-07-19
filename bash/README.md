@@ -1,6 +1,8 @@
 # Bash
 
-## Testing
+## General
+
+### Testing
 
 For testing on the bash track, we are using `bats`.
 
@@ -13,3 +15,9 @@ $ bats hello_world.bats
 1 test, 0 failures
 
 ```
+
+## Exercises
+
+### hello-world
+- `exercism download --exercise=hello-world --track=bash`
+- `exercism submit`
