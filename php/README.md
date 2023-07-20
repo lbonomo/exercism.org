@@ -25,3 +25,11 @@ OK (1 test, 1 assertion)
 
 ### hello-world
 ### lasagna
+
+### reverse-string
+ - Add UNICODE text to test
+ - use:
+   - [`mb_str_split`](https://www.php.net/manual/es/function.mb-str-split.php)
+   - [`array_reverse`](https://www.php.net/manual/es/function.array-reverse)
+   - [`implode`](https://www.php.net/manual/es/function.implode)
+
