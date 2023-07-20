@@ -33,3 +33,6 @@ OK (1 test, 1 assertion)
    - [`array_reverse`](https://www.php.net/manual/es/function.array-reverse)
    - [`implode`](https://www.php.net/manual/es/function.implode)
 
+### resistor-color
+ - use:
+   - [`array_search`](https://www.php.net/manual/es/function.array-search.php)

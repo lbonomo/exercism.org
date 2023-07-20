@@ -42,9 +42,5 @@ define( 'COLORS',
 function colorCode(string $color): int
 {
     $color = strtolower($color);
-    $colors = array();
-    foreach ( COLORS as $key => $val ) {
-        $colors[$val] = $key;
-    }
-    return $colors[$color];
+    return array_search($color, COLORS);
 }
