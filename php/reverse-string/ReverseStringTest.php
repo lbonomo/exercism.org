@@ -60,4 +60,9 @@ class ReverseStringTest extends PHPUnit\Framework\TestCase
     {
         $this->assertEquals("reward", reverseString("drawer"));
     }
+
+    public function testUNICODEString(): void
+    {
+        $this->assertEquals("omonoB saítaM sacuL", reverseString("Lucas Matías Bonomo"));
+    }
 }

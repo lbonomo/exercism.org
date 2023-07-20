@@ -40,5 +40,12 @@ function reverseString(string $text): string
 
     // Best solution.
     // https://www.php.net/manual/es/function.strrev.php
-    return strrev($text);
+    // return strrev($text);
+    
+    // This solution has a problen with UNICODE charecter 
+    // Ex: Lucas Matías Bonomo -> omonoB sa��taM sacuL
+
+    // Thanks Bob Hoeppner for you comments.
+    // Ex: Lucas Matías Bonomo -> omonoB saítaM sacuL
+    return implode(array_reverse(mb_str_split($text)));
 }
