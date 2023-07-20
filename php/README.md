@@ -36,3 +36,4 @@ OK (1 test, 1 assertion)
 ### resistor-color
  - use:
    - [`array_search`](https://www.php.net/manual/es/function.array-search.php)
+   - [`define() vs const`](https://www.php.net/manual/es/language.constants.syntax.php)
