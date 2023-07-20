@@ -25,6 +25,7 @@ OK (1 test, 1 assertion)
 
 ### hello-world
 ### lasagna
+`declare(strict_types=1);`
 
 ### reverse-string
  - Add UNICODE text to test
@@ -35,5 +36,7 @@ OK (1 test, 1 assertion)
 
 ### resistor-color
  - use:
+   - [`strtolower`](https://www.php.net/manual/es/function.strtolower.php)
    - [`array_search`](https://www.php.net/manual/es/function.array-search.php)
    - [`define() vs const`](https://www.php.net/manual/es/language.constants.syntax.php)
+   - [`array_flip`](https://www.php.net/manual/es/function.array-flip.php)
