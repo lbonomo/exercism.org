@@ -23,20 +23,26 @@ OK (1 test, 1 assertion)
 
 ## Exercises
 
-### hello-world
-### lasagna
+### 01-hello-world
+### 02-lasagna
 `declare(strict_types=1);`
 
-### reverse-string
+### 03-reverse-string
  - Add UNICODE text to test
  - use:
    - [`mb_str_split`](https://www.php.net/manual/es/function.mb-str-split.php)
    - [`array_reverse`](https://www.php.net/manual/es/function.array-reverse)
    - [`implode`](https://www.php.net/manual/es/function.implode)
 
-### resistor-color
+### 04-resistor-color
  - use:
    - [`strtolower`](https://www.php.net/manual/es/function.strtolower.php)
    - [`array_search`](https://www.php.net/manual/es/function.array-search.php)
    - [`define() vs const`](https://www.php.net/manual/es/language.constants.syntax.php)
    - [`array_flip`](https://www.php.net/manual/es/function.array-flip.php)
+
+### 05-hamming
+ - use:
+   - [`str_split`](https://www.php.net/manual/es/function.str-split.php)
+   - [`InvalidArgumentException`](https://www.php.net/manual/en/class.invalidargumentexception.php)
+   - [`array_diff_assoc`](https://www.php.net/manual/es/function.array-diff-assoc.php)

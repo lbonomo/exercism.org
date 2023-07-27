@@ -21,10 +21,12 @@
 main () {
     if [ -z "$1" ]
     then
-        echo "One for you, one for me."
+        p='you'
     else
-        echo "One for $1, one for me."
+        p=$1
     fi
+
+    echo "One for $p, one for me."
 }
 
 main "$1"
