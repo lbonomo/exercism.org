@@ -24,10 +24,16 @@ OK (1 test, 1 assertion)
 ## Exercises
 
 ### 01-hello-world
+
 ### 02-lasagna
 `declare(strict_types=1);`
 
-### 03-reverse-string
+### 03-sweethearts
+ - use:
+   - [`array_push`](https://www.php.net/manual/en/function.array-push.php)
+   - [`explode`](https://www.php.net/manual/es/function.explode.php)
+
+### 04-reverse-string
  - Add UNICODE text to test
  - use:
    - [`mb_str_split`](https://www.php.net/manual/es/function.mb-str-split.php)
@@ -46,3 +52,4 @@ OK (1 test, 1 assertion)
    - [`str_split`](https://www.php.net/manual/es/function.str-split.php)
    - [`InvalidArgumentException`](https://www.php.net/manual/en/class.invalidargumentexception.php)
    - [`array_diff_assoc`](https://www.php.net/manual/es/function.array-diff-assoc.php)
+
