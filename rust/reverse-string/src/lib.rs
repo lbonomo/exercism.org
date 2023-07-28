@@ -1,3 +1,13 @@
+// cargo add unicode-segmentation
+#[cfg(feature = "grapheme")]
+use unicode_segmentation::UnicodeSegmentation;
+
+#[cfg(not(feature = "grapheme"))]
 pub fn reverse(input: &str) -> String {
-    unimplemented!("Write a function to reverse {input}");
+    input.chars().rev().collect::<String>()
+}          
+
+#[cfg(feature = "grapheme")]
+pub fn reverse(input: &str) -> String {
+    input.graphemes(true).rev().collect::<String>()
 }

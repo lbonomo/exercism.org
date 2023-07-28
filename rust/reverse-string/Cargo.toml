@@ -1,4 +1,6 @@
 [dependencies]
+grapheme = "0.0.0"
+unicode-segmentation = "1.10.1"
 
 [features]
 grapheme = []
