@@ -15,6 +15,19 @@ Time: 00:00.002, Memory: 4.00 MB
 OK (1 test, 1 assertion)
 ```
 
+The previous command run all test in a test file, but if we want to run just one test, we can use the next command
+
+```
+$ phpunit --filter testCalculateDoughRequirement PizzaPiTest.php
+PHPUnit 9.5.2 by Sebastian Bergmann and contributors.
+
+.                                                                   1 / 1 (100%)
+
+Time: 00:00.002, Memory: 4.00 MB
+
+OK (1 test, 1 assertion)
+```
+
 ### Local workflow
 - Donwload the exercise `exercism download --exercise=hello-world --track=php`
 - Resolve the exercise.
@@ -33,6 +46,9 @@ OK (1 test, 1 assertion)
    - [`array_push`](https://www.php.net/manual/en/function.array-push.php)
    - [`explode`](https://www.php.net/manual/es/function.explode.php)
 
+### 04-pizza-pi
+ - `self::` vs `self->`
+ 
 ### 04-reverse-string
  - Add UNICODE text to test
  - use:
