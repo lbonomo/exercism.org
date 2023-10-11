@@ -1,6 +1,13 @@
 # PHP
 
-## General
+## Work flow
+
+ - Modify "the code".
+ - run test.
+ - When all the tests running OK, push the code.
+ - See other solution.
+ - improve the code.
+ - push again.
 
 ### Testing
 
@@ -48,6 +55,7 @@ OK (1 test, 1 assertion)
 
 ### 04-pizza-pi
  - `self::` vs `self->`
+ - [`floor`](https://www.php.net/manual/es/function.floor.php)
  
 ### 04-reverse-string
  - Add UNICODE text to test
