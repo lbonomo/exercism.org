@@ -24,13 +24,13 @@ class ProgramWindow {
         $this->height = 600;
     }
 
-    function resize($size)
+    function resize(Size $size)
     {
         $this->height = $size->height;
         $this->width  = $size->width;
     }
 
-    function move($position)
+    function move(Position $position)
     {
         $this->x = $position->x;
         $this->y = $position->y;

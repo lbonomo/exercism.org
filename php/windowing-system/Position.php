@@ -5,8 +5,8 @@
  *
  */
 class Position {
-    public $x;
-    public $y;
+    public int $x;
+    public int $y;
 
     function __construct($y, $x)
     {

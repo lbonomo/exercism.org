@@ -5,8 +5,8 @@
  *
  */
 class Size {
-    public $width;
-    public $height;
+    public int $height = 600;
+    public int $width = 800;
 
     function __construct($height, $width)
     {
