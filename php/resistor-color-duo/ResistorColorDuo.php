@@ -41,12 +41,9 @@ class ResistorColorDuo
     );
 
     public function getColorsValue(array $colors): int
-    {
-        // error_log( print_r( $colors, true ) );
-        
+    {        
         $value = self::CODES[$colors[0]].self::CODES[$colors[1]];
         return intval($value);
-
         throw new \BadMethodCallException(sprintf('Implement the %s method', __FUNCTION__));
     }
 }

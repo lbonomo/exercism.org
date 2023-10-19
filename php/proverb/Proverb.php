@@ -26,10 +26,10 @@ declare(strict_types=1);
 
 class Proverb
 {
-    public function recite(array|bool $words = false)
+    public function recite(array $words)
     {
         $proverb = array();       
-        if ($words) {
+        if (! empty($words)) {
             foreach ($words as $key => $word) {
                 $w1 = $words[$key]; 
                 if ($key+1 < count($words) ) {
